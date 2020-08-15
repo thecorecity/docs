@@ -6,6 +6,7 @@ let embed = {
 	color: 0xbcf2aa,
 }
 message.channel.messages.find(mes => mes.id === "744073403799044097").edit("", { embed });
+// message.channel.messages.find(mes => mes.id === "744133336796233789").edit("", { embed });
 message.delete();
 
 // c!dev eval
@@ -21,6 +22,7 @@ let embed = {
 	color: 0xbcf2aa,
 }
 message.channel.messages.find(mes => mes.id === "744073411944251442").edit("", { embed });
+// message.channel.messages.find(mes => mes.id === "744133342009753640").edit("", { embed });
 message.delete();
 
 // c!dev eval
@@ -29,4 +31,5 @@ let embed = {
     color: 0xbcf2aa,
 }
 message.channel.messages.find(mes => mes.id === "744073419481546782").edit("", { embed });
+// message.channel.messages.find(mes => mes.id === "744133347692904489").edit("", { embed });
 message.delete();
