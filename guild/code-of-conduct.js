@@ -5,8 +5,8 @@ let embed = {
 	`"Нормы поведения" — *неформальный* список основных норм, соблюдение которых будет гарантировать сохранение идеи сообщества и статуса комфортного места для совместного существования и общения участников сообщества.`,
 	color: 0xbcf2aa,
 }
-message.channel.messages.find(mes => mes.id === "744073403799044097").edit("", { embed });
-// message.channel.messages.find(mes => mes.id === "744133336796233789").edit("", { embed });
+message.channel.messages.find(mes => mes.id === "744073403799044097").edit({ embed });
+// message.channel.messages.find(mes => mes.id === "744133336796233789").edit({ embed });
 message.delete();
 
 // c!dev eval
@@ -21,8 +21,8 @@ let embed = {
 	`\`8.\` Модераторский произвол неизбежен. Вас могут выгнать без объяснения причины. Просто примите это как факт. “Правила предназначены для модерирования и главной своей целью имеют поддержание нормальной здоровой дискуссии. Понятие «здоровой» дискуссии определяется настоящими правилами и личным мнением модераторов. Необходимость применения или неприменения данных правил решается модератором лично в каждом конкретном случае.”:copyright: [Linux.org.ru](https://www.linux.org.ru/help/rules.md).`,
 	color: 0xbcf2aa,
 }
-message.channel.messages.find(mes => mes.id === "744073411944251442").edit("", { embed });
-// message.channel.messages.find(mes => mes.id === "744133342009753640").edit("", { embed });
+message.channel.messages.find(mes => mes.id === "744073411944251442").edit({ embed });
+// message.channel.messages.find(mes => mes.id === "744133342009753640").edit({ embed });
 message.delete();
 
 // c!dev eval
@@ -30,6 +30,6 @@ let embed = {
 	description: `Рекомендуемая ссылка-приглашение для ваших друзей — https://thecore.city/`,
     color: 0xbcf2aa,
 }
-message.channel.messages.find(mes => mes.id === "744073419481546782").edit("", { embed });
-// message.channel.messages.find(mes => mes.id === "744133347692904489").edit("", { embed });
+message.channel.messages.find(mes => mes.id === "744073419481546782").edit({ embed });
+// message.channel.messages.find(mes => mes.id === "744133347692904489").edit({ embed });
 message.delete();

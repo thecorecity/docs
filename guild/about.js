@@ -4,7 +4,7 @@ let embed = {
 	description: `Ядро — небольшое сообщество игроманов, разработчиков, айтишников и других разношерстных людей/поней. Наше сообщество настроено на равное общение разных людей с целью развлечения, получения новых знаний и много другого.`,
 	color: 0xbcf2aa,
 }
-message.channel.messages.find(mes => mes.id === "744073226107224066").edit("", { embed });
+message.channel.messages.find(mes => mes.id === "744073226107224066").edit({ embed });
 message.delete();
 
 // c!dev eval
@@ -16,7 +16,7 @@ let embed = {
 	`\<@711916786433392723> — вахтёр.`,
 	color: 0xbcf2aa,
 }
-message.channel.messages.find(mes => mes.id === "744073237314666520").edit("", { embed });
+message.channel.messages.find(mes => mes.id === "744073237314666520").edit({ embed });
 message.delete();
 
 // c!dev eval
@@ -26,7 +26,7 @@ let embed = {
 	`**Раздачи игр** спонсируемые товарищем \<@197430201884475402>.`,
 	color: 0xbcf2aa,
 }
-message.channel.messages.find(mes => mes.id === "744073246986469467").edit("", { embed });
+message.channel.messages.find(mes => mes.id === "744073246986469467").edit({ embed });
 message.delete();
 
 // c!dev eval
@@ -48,7 +48,7 @@ let embed = {
 	`\`WOWSOMUCH$\` \`   2 ₽\` \<@256114365894230018>\n`,
 	color: 0xbcf2aa,
 }
-message.channel.messages.find(mes => mes.id === "744073255333134356").edit("", { embed });
+message.channel.messages.find(mes => mes.id === "744073255333134356").edit({ embed });
 message.delete();
 
 // c!dev eval
@@ -79,5 +79,5 @@ let embed = {
 	`\<#630012301520666664> — Публичный лог гильдии. Теги: \`user-nickname\`, \`user-leave\`, \`user-join\`, \`user-unban\`, \`user-ban\`.`,
 	color: 0xbcf2aa,
 }
-message.channel.messages.find(mes => mes.id === "744073263516352532").edit("", { embed });
+message.channel.messages.find(mes => mes.id === "744073263516352532").edit({ embed });
 message.delete();
